@@ -55,7 +55,7 @@ public class SnakeAndLadder {
                 if ((int) option == ladder) {
 
                     if (position1 + (int) diceNo == 100) {
-                        final int end1 = position + (int) diceNo;
+                        final int end1 = position1 + (int) diceNo;
                         System.out.println("Player2 Got The Ladder with " + (int) diceNo + " and move to: " + end1);
                         System.out.println("**HURRREYY PLAYER2 WIN THE GAME**");
                         break outer;
