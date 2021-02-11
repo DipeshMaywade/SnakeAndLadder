@@ -2,10 +2,11 @@
 public class SnakeAndLadder {
 
     public static void main(String[] args) {
-
-        int position = 0;
         final int snake = 2;
         final int ladder = 1;
+        int count = 0;
+        int position = 0;
+
 
         while (position<=100) {
 
@@ -47,7 +48,10 @@ public class SnakeAndLadder {
                 else {
                     System.out.println("Player is Not Playing Stay at Same Position: " + position);
                 }
-
+            System.out.println("Player Current Position Is " +position );
+            count++;
         }
+        System.out.println("Number Of Times The Dice Was Roll: "+count);
     }
+
 }
